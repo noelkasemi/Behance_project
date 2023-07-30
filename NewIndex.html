@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behance</title>
+
+    <link rel="icon" href="Logos/behance-logo-1373E40919-seeklogo.com.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+
+<body>
+    <!-- head -->
+    <header class="fixed w-full z-20 flex flex-col bg-white space-y-6">
+
+        <section class="shadow ">
+            <!-- NAVBAR -->
+            <nav class="flex hidden md:flex">
+                <section class="w-2/4 flex items-center space-x-4">
+                    <a href="#" class="lg:hidden ml-4">
+                        <h2 class="text-2xl font-bold">Bē</h2>
+                    </a>
+                    <a href="#" class="ml-4 hidden lg:block">
+                        <h2 class="text-2xl font-bold">Bēhance</h2>
+                    </a>
+                    <a href="#" class="mt-4">
+                        <h4 class="font-semibold  hover:border-b-2 border-black pb-2.5">For You</h4>
+                    </a>
+                    <a href="#" class="mt-4">
+                        <h4 class="font-semibold  hover:border-b-2 border-black pb-2.5">Discover</h4>
+                    </a>
+                    <a href="#" class="mt-4">
+                        <h4 class="font-semibold  hover:border-b-2 border-black pb-2.5">Hire</h4>
+                    </a>
+                    <a href="#" class="mt-4">
+                        <h4 class="font-semibold  hover:border-b-2 border-black pb-2.5">Jobs</h4>
+                    </a>
+
+                </section>
+                <!-- buttons -->
+                <section class="w-2/4 lg:w-full flex justify-end space-x-4 items-center">
+
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                        </svg>
+
+                    </a>
+                    <button
+                        class="py-1.5 px-4 border bg-blue-50 rounded-3xl text-sm text-blue-600 font-bold hover:bg-sky-100 hover:border-blue-200 "><a
+                            href="LogIn/Login.html">Log
+                            In</a></button>
+                    <button
+                        class="py-1.5 px-4 rounded-3xl text-sm  text-white bg-blue-600 font-bold hover:bg-blue-700"><a
+                            href="/LogIn/signUp.html">Sign
+                            Up</a></button>
+                    <button
+                        class="py-1 px-3 text-sm lg:text-xs lg:py-1.5 lg:px-5 font-semibold border rounded-3xl hover:bg-gray-200">
+                        <a href="/LogIn/FreeTrail.html" class="flex items-center">
+                            <img src="/Logos/icon.svg" alt="Icon" class="w-3 h-3 lg:w-5 lg:h-5  mr-2">
+                            Free Trial
+                        </a>
+                    </button>
+                    <a href="#" class="lg:hidden  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="18px" class="mr-2">
+                            <g>
+                                <polygon points="66.7,0 100,0 100,100"></polygon>
+                                <polygon points="33.3,0 0,0 0,100"></polygon>
+                                <polygon points="44.4,37.3 81.5,100 65.3,100 52.2,79.3 34.9,79.3"></polygon>
+                            </g>
+                        </svg>
+
+                    </a>
+                    <a href="#" class="hidden lg:block">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 15.619"
+                            aria-labelledby="IconBase-title-20430e6a-8471-4050-bbef-1fadad019fd5 IconBase-description-20430e6a-8471-4050-bbef-1fadad019fd5"
+                            role="graphics-symbol img" width="60" height="19"
+                            class="PrimaryNav-icon-r_P PrimaryNav-fullAdobeLogo-qFK mr-2" aria-hidden="true">
+                            <title id="IconBase-title-20430e6a-8471-4050-bbef-1fadad019fd5">Adobe, Inc.</title>
+                            <desc id="IconBase-description-20430e6a-8471-4050-bbef-1fadad019fd5"></desc>
+                            <g><!--[-->
+                                <path
+                                    d="M179.682,34.616l-.647,2a.145.145,0,0,1-.148.107h-1.564c-.094,0-.122-.053-.107-.132l2.7-7.78a2.513,2.513,0,0,0,.132-.823.089.089,0,0,1,.081-.094h2.157c.067,0,.094.013.108.081l3.06,8.629c.026.067.013.12-.067.12h-1.75a.132.132,0,0,1-.149-.094l-.688-2.009ZM182.3,32.93c-.264-.89-.808-2.522-1.058-3.479h-.013c-.216.9-.7,2.38-1.058,3.479Z"
+                                    transform="translate(-153.778 -24.202)"></path>
+                                <path
+                                    d="M241.14,28.636a3.573,3.573,0,0,1,3.91-3.541c.107,0,.242.015.444.028V22.46a.085.085,0,0,1,.094-.094h1.7c.067,0,.081.026.081.081v7.969a7.51,7.51,0,0,0,.054.984c0,.067-.013.094-.094.122a6.793,6.793,0,0,1-2.657.538A3.226,3.226,0,0,1,241.14,28.636Zm4.355-1.915a1.389,1.389,0,0,0-.5-.067,1.8,1.8,0,0,0-1.928,1.887,1.687,1.687,0,0,0,1.793,1.915,1.9,1.9,0,0,0,.633-.081Z"
+                                    transform="translate(-209.252 -19.408)"></path>
+                                <path
+                                    d="M303.016,46.411a3.328,3.328,0,1,1-6.646.041,3.3,3.3,0,0,1,3.356-3.492A3.212,3.212,0,0,1,303.016,46.411Zm-4.746.015c0,1.19.553,1.941,1.455,1.941.783,0,1.375-.674,1.375-1.915,0-1.058-.431-1.928-1.455-1.928C298.864,44.524,298.27,45.225,298.27,46.426Z"
+                                    transform="translate(-257.179 -37.279)"></path>
+                                <path
+                                    d="M356.658,22.37c.108,0,.132.013.132.108v2.764a4.3,4.3,0,0,1,1.135-.144,3.086,3.086,0,0,1,3.236,3.209,3.743,3.743,0,0,1-4.044,3.761A7.063,7.063,0,0,1,355,31.759a.156.156,0,0,1-.081-.132V22.464c0-.067.026-.094.094-.094Zm.926,4.314a2.71,2.71,0,0,0-.793.108v3.654a2.064,2.064,0,0,0,.5.054,1.856,1.856,0,0,0,1.954-2.023,1.58,1.58,0,0,0-1.656-1.792Z"
+                                    transform="translate(-307.986 -19.412)"></path>
+                                <path
+                                    d="M409.443,46.941c.067.768.607,1.4,1.928,1.4a4.176,4.176,0,0,0,1.658-.309c.041-.028.081-.013.081.067v1.28c0,.1-.026.132-.094.163a4.53,4.53,0,0,1-2.063.4,3.161,3.161,0,0,1-3.424-3.41,3.286,3.286,0,0,1,3.262-3.56,2.748,2.748,0,0,1,2.844,2.909,4.281,4.281,0,0,1-.067.9.114.114,0,0,1-.107.107,12.3,12.3,0,0,1-1.39.054Zm1.753-1.308a4.486,4.486,0,0,0,.674-.026v-.1a1.1,1.1,0,0,0-1.147-1.058,1.278,1.278,0,0,0-1.295,1.19Z"
+                                    transform="translate(-353.639 -37.288)"></path>
+                                <path d="M84.13,0h6.523V15.619Z" transform="translate(-73.005)"></path>
+                                <path d="M6.529,0H0V15.619Z"></path>
+                                <path d="M48.032,43.53l4.156,9.862H49.465l-1.243-3.141H45.18Z"
+                                    transform="translate(-39.205 -37.774)"></path>
+                                <!--]-->
+                            </g>
+                        </svg>
+                    </a>
+                </section>
+            </nav>
+            <style>
+                [x-cloak] {
+                    display: none;
+                }
+            </style>
+            <!--Open SIDEBAR -->
+            <section x-data="{ open: false }" class="flex items-center" x-show>
+                <button @click="open = !open" x-cloak class="flex  md:hidden relative z-20 flex items-center">
+                    <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+
+                </button>
+
+                <a href="#">
+                    <h1 class="text-2xl block md:hidden font-bold ml-2 w-1/12 text-center" x-show="!open">Bē</h1>
+                </a>
+                <!-- sidebar animation -->
+                <section x-show="open" x-cloak x-transition:enter="transition-transform ease-out duration-300"
+                    x-transition:enter-start="transform -translate-x-full"
+                    x-transition:enter-end="transform translate-x-0"
+                    x-transition:leave="transition-transform ease-in duration-300"
+                    x-transition:leave-start="transform translate-x-0"
+                    x-transition:leave-end="transform -translate-x-full" @click.outside="open = false"
+                    class="w-[267px] fixed h-full md:hidden z-10 top-0 left-0 overflow-y-auto bg-slate-200"
+                    style="width: 267px;">
+
+
+
+                    <!-- close sidebar -->
+                    <section class="flex items-center fixed bg-slate-100 top-0 left-0 h-11 shadow-sm w-[267px]">
+                        <button @click=" open = !open" x-show="open" x-cloak class="w-fit flex ml-2 items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                        <span class="w-full mr-4 flex justify-end">
+                            <button
+                                class="py-1 px-4 border rounded-3xl text-sm  font-semibold hover:bg-sky-100 hover:border-blue-200 "><a
+                                    href="LogIn/Login.html">Log
+                                    In</a></button>
+                        </span>
+
+                    </section>
+
+                    <!-- sidebar content -->
+                    <section class="flex flex-col space-y-4 ml-4 mt-12">
+                        <a href="#" style="margin-top: 1rem; margin-bottom: 0.5rem;" class="w-fit">
+                            <h4 class="font-semibold text-lg">For You</h4>
+                        </a>
+                        <a href="#" style=" margin-bottom: 0.5rem;" class="w-fit">
+                            <h4 class="font-semibold text-lg">Discover</h4>
+                        </a>
+                        <a href="#" style="margin-bottom: 0.5rem;" class="w-fit">
+                            <h4 class="font-semibold text-lg">Hire</h4>
+                        </a>
+                        <a href="#" style="margin-bottom: 0.5rem;" class="w-fit">
+                            <h4 class="font-semibold text-lg">Jobs</h4>
+                        </a>
+                        <a href="#" style=" margin-bottom: 0.5rem;" class="w-fit">
+                            <img src="https://a5.behance.net/98bd1ff4ec5ef1e9c8d26439edaf7b0431a65115/svgs/apple-app-store-button.svg"
+                                alt="app store" width="150" height="90">
+                        </a>
+                        <a href="#" style="margin-bottom: 1.5rem;" class="w-fit">
+                            <img src="https://a5.behance.net/98bd1ff4ec5ef1e9c8d26439edaf7b0431a65115/svgs/google-play-button.svg"
+                                alt="play store" width="150" height="90">
+                        </a>
+                        <a href="#" class="text-xs my-2 text-gray-800 w-14 font-semibold flex items-center">English
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" class="mt-1 ml-1 "
+                                viewBox="0 0 24 24">
+                                <polygon points="12,13 6,6 18,6" fill="black" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-xs my-2 text-gray-800 font-semibold w-fit">Blog</a>
+                        <a href="#" class="text-xs my-2 text-gray-800 font-semibold w-fit">TOU</a>
+                        <a href="#" class="text-xs my-2 text-gray-800 font-semibold w-fit">Privacy</a>
+                        <a href="#" class="text-xs my-2 text-gray-800 font-semibold w-fit">Community</a>
+                        <a href="#" class="text-xs my-2 text-gray-800 font-semibold w-fit">Help</a>
+                        <a href="#" class="text-xs my-2 text-gray-800 font-semibold break-words w-fit">
+                            <span>Do not sell or share my</span><br>
+                            <span>personal information</span>
+                        </a>
+
+                    </section>
+
+                    <button
+                        class="w-2/5 ml-4 rounded-3xl h-8 text-sm text-white bg-blue-600 font-bold hover:bg-blue-700 mb-2 mt-6"><a
+                            href="/LogIn/signUp.html">Sign
+                            Up</a></button>
+
+                </section>
+                <section class="flex w-full h-11 md:hidden justify-end items-center space-x-2">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-5 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </a>
+
+
+                </section>
+
+            </section>
+
+        </section>
+        <!-- the search -->
+        <section class="flex pl-2 sm:pb-0 shadow sm:shadow-none pb-2 pr-4">
+            <section class="relative flex items-center w-full lg:w-3/7">
+                <svg class="absolute left-5  text-gray-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" placeholder="Search the creative world at work"
+                    class="border bg-transparent ml-2 placeholder-gray-500 font-bold text-2xl border-gray-300 rounded-l-full w-full py-2 pl-10 pr-4 focus:border-blue-500 focus:outline-none" />
+            </section>
+            <!-- filters -->
+            <section class="w-4/7 flex items-center hidden lg:flex">
+                <ul class="flex pr-4 space-x-2 items-center border border-gray-300 rounded-r-2xl h-full">
+                    <li class="px-3 py-1 bg-black font-semibold text-white ml-2 text-sm font-semibold rounded-3xl">
+                        <a href="#"> Projects</a>
+                    </li>
+                    <li class="hover:bg-gray-100 font-semibold py-0.5 px-3 rounded-3xl"><a href="#">Assets</a></li>
+                    <li class="hover:bg-gray-100 font-semibold py-0.5 px-3 rounded-3xl"><a href="#">Images</a></li>
+                    <li class="hover:bg-gray-100 font-semibold py-0.5 px-3 rounded-3xl"><a href="#">Prototypes</a></li>
+                    <li class="hover:bg-gray-100 font-semibold py-0.5 px-3 rounded-3xl"><a href="#">Streams</a></li>
+                    <li class="hover:bg-gray-100 font-semibold py-0.5 px-3 rounded-3xl"><a href="#">People</a></li>
+                    <li class="hover:bg-gray-100 font-semibold py-0.5 px-3 rounded-3xl"><a href="#">Moodboards</a></li>
+                </ul>
+            </section>
+            <section class="flex items-center lg:hidden relative  sm:w-1/6 w-2/7 ">
+
+                <!-- filters on small screens -->
+                <select
+                    class="font-semibold border pl-2 border-gray-300 rounded-r-2xl h-full  appearance-none focus:outline-none hover:bg-transparent">
+                    <option value="Projects" class="">Projects</option>
+                    <option value="Assets">Assets</option>
+                    <option value="Images">Images</option>
+                    <option value="Prototypes">Prototypes</option>
+                    <option value="Streams">Streams</option>
+                    <option value="People">People</option>
+                    <option value="Moodboards">Moodboards</option>
+                </select>
+                <section class="flex-shrink-0">
+
+                </section>
+
+
+            </section>
+
+
+
+        </section>
+        <!-- the options -->
+        <section class=" hidden shadow pb-2 sm:flex w-full">
+            <section
+                class="flex w-[2600px] lg:w-[4100px] space-x-4 overflow-x-scroll lg:overflow-hidden whitespace-nowrap">
+                <a href="#"
+                    class=" w-[150px] ml-6 border flex items-center rounded hover:border-black duration-500 px-1">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 22 22"
+                        class=" mt-[2px]">
+                        <path
+                            d="M20 7.5h-5.5v-6a.5.5 0 00-.854-.353L1.654 13.136a.5.5 0 00.353.854h5.681a4.56 4.56 0 00.365 3.435 4.726 4.726 0 008.61-.425H20a.5.5 0 00.5-.5V8a.5.5 0 00-.5-.5zm-11.618 5H4.364L13 3.85V7.5h-1.5a.5.5 0 00-.5.5v2.672A4.749 4.749 0 008.382 12.5zm3.868 6.025a3.275 3.275 0 113.275-3.275 3.275 3.275 0 01-3.275 3.275z">
+                        </path>
+                    </svg>
+                    <p class=" text-sm font-semibold ml-2">Creative Fields</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="14" class="ml-2" viewBox="0 0 24 24">
+                        <polygon points="12,18 6,6 18,6" fill="black" />
+                    </svg>
+                </a>
+
+
+                <a href="#"
+                    class=" w-[100px]  border flex space-x-2 items-center rounded hover:border-black px-1 duration-500 ">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="16"
+                        fill="currentColor" class="ml-1">
+                        <path fillRule="evenodd"
+                            d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.64l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z"
+                            clipRule="evenodd" />
+                        <path
+                            d="M10.076 8.64l-2.201-2.2V4.874a.75.75 0 00-.364-.643l-3.75-2.25a.75.75 0 00-.916.113l-.75.75a.75.75 0 00-.113.916l2.25 3.75a.75.75 0 00.643.364h1.564l2.062 2.062 1.575-1.297z" />
+                        <path fillRule="evenodd"
+                            d="M12.556 17.329l4.183 4.182a3.375 3.375 0 004.773-4.773l-3.306-3.305a6.803 6.803 0 01-1.53.043c-.394-.034-.682-.006-.867.042a.589.589 0 00-.167.063l-3.086 3.748zm3.414-1.36a.75.75 0 011.06 0l1.875 1.876a.75.75 0 11-1.06 1.06L15.97 17.03a.75.75 0 010-1.06z"
+                            clipRule="evenodd" />
+                    </svg>
+
+                    <p class=" text-sm font-semibold text-center">Tools</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" class="" viewBox="0 0 24 24">
+                        <polygon points="12,18 6,6 18,6" fill="black" />
+                    </svg>
+                </a>
+
+                <a href="#"
+                    class="flex w-[100px] space-x-2 px-1 border items-center rounded hover:border-black duration-500 ">
+
+                    <img src="Logos/colorWheel.png" alt="color wheel" class="ml-1">
+                    <p class="font-semibold text-sm ml-[2px] text-center">Color</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="14" class="" viewBox="0 0 24 24">
+                        <polygon points="12,18 6,6 18,6" fill="black" />
+                    </svg>
+
+                </a>
+
+                <a href="#"
+                    class="  w-[110px] space-x-2 rounded  border flex items-center hover:border-black duration-500 px-1 w-2/12">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-4808 -20688 14.286 20"
+                        class="ml-1">
+                        <g>
+                            <path
+                                d="M-4800.857-20688a7.143 7.143 0 0 0-7.143 7.143c0 5.714 7.143 12.857 7.143 12.857s7.143-7.143 7.143-12.857a7.142 7.142 0 0 0-7.143-7.143zm0 10a2.857 2.857 0 1 1 2.857-2.859 2.858 2.858 0 0 1-2.857 2.859z">
+                            </path>
+                        </g>
+                    </svg>
+
+                    <p class=" text-sm font-semibold text-center">Location</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" class=" mt-[2px]"
+                        viewBox="0 0 24 24">
+                        <polygon points="12,18 6,6 18,6" fill="black" />
+                    </svg>
+                </a>
+
+                <a href="#"
+                    class="  space-x-2 w-[110px] rounded hover:border-black duration-500 px-1 border flex items-center w-2/12">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="22" viewBox="0 0 24 24"
+                        fill="currentColor" class="ml-[2px]">
+                        <path
+                            d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z" />
+                        <path
+                            d="M13.06 15.473a48.45 48.45 0 017.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 01-.46.71 47.878 47.878 0 00-8.105 4.342.75.75 0 01-.832 0 47.877 47.877 0 00-8.104-4.342.75.75 0 01-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 016 13.18v1.27a1.5 1.5 0 00-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 00.551-1.608 1.5 1.5 0 00.14-2.67v-.645a48.549 48.549 0 013.44 1.668 2.25 2.25 0 002.12 0z" />
+                        <path
+                            d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z" />
+                    </svg>
+
+                    <p class="font-semibold text-sm text-center">Schools</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" class=" " viewBox="0 0 24 24">
+                        <polygon points="12,18 6,6 18,6" fill="black" />
+                    </svg>
+                </a>
+                <a href="#"
+                    class="  space-x-2 w-[100px] rounded hover:border-black duration-500 px-1 border flex items-center w-2/12">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 17.5" width="22" height="16" class="ml-1">
+                        <path d="M5.6,17.5L5.6,17.5C2.5,17.5,0,15,0,11.9c0-1.5,0.6-2.9,1.6-4l6.8-6.8c1.5-1.5,4-1.5,5.6,0s1.5,4,0,5.6l0,0
+                        l-6.8,6.8c-0.9,0.9-2.3,0.9-3.2,0.1S3.1,11.3,4,10.4c0,0,0,0,0.1-0.1l6.8-6.8c0.2-0.2,0.6-0.2,0.8,0s0.2,0.6,0,0.8l0,0l-6.8,6.8
+                        c-0.4,0.4-0.5,1.1,0,1.6c0.4,0.4,1.1,0.5,1.6,0c0,0,0,0,0,0l6.8-6.8c1.1-1.1,1.1-2.9,0-4s-2.9-1.1-4,0L2.4,8.7
+                        c-1.8,1.8-1.8,4.6,0,6.4s4.6,1.8,6.4,0l0,0L17,6.8c0.2-0.2,0.6-0.2,0.8,0c0.2,0.2,0.2,0.6,0,0.8l0,0l-8.2,8.2
+                        C8.5,16.9,7.1,17.5,5.6,17.5z"></path>
+                    </svg>
+
+                    <p class="font-semibold text-sm text-center">Assets</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" class=" " viewBox="0 0 24 24">
+                        <polygon points="12,18 6,6 18,6" fill="black" />
+                    </svg>
+                </a>
+                <a href="#" class=" w-[150px]  border flex items-center rounded hover:border-black duration-500 px-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.4 18.4" width="20" height="18" class="ml-1">
+                        <path d="M5.8,0c2.1,0,3.8,1.7,3.8,3.8S7.9,7.7,5.8,7.7S2,6,2,3.8c0,0,0,0,0,0C2,1.7,3.7,0,5.8,0z M5.8,6.2
+                    c1.3,0,2.3-1,2.3-2.3s-1-2.3-2.3-2.3s-2.3,1-2.3,2.3l0,0C3.5,5.1,4.5,6.2,5.8,6.2z"></path>
+                        <path d="M0.8,13.9c-0.4,0-0.7-0.3-0.8-0.7c0-3.2,2.6-5.8,5.8-5.8c1.5,0,3,0.6,4.1,1.7c0.3,0.3,0.3,0.8,0,1.1
+                    c-0.3,0.3-0.8,0.3-1.1,0c0,0,0,0,0,0c-1.7-1.7-4.4-1.6-6.1,0.1c-0.8,0.8-1.2,1.9-1.2,3C1.5,13.5,1.2,13.9,0.8,13.9
+                    C0.8,13.9,0.8,13.9,0.8,13.9z"></path>
+                        <path d="M10.9,11.2h6.8c0.4,0,0.8,0.3,0.8,0.8v5.6c0,0.4-0.3,0.8-0.8,0.8h-6.8c-0.4,0-0.8-0.3-0.8-0.8V12
+                    C10.1,11.6,10.5,11.2,10.9,11.2z M16.9,12.8h-5.2v4.1h5.2V12.8z"></path>
+                        <path d="M14.3,7.9c1.7,0,3,1.3,3,3V12c0,0.4-0.3,0.8-0.8,0.8H12c-0.4,0-0.8-0.3-0.8-0.8v-1.1
+                    C11.3,9.2,12.6,7.9,14.3,7.9z M15.8,11.2v-0.4c0-0.8-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5v0.4H15.8z">
+                        </path>
+                        <path
+                            d="M14.3,15.9c-0.6,0-1-0.5-1-1s0.5-1,1-1l0,0c0.6,0,1,0.5,1,1S14.8,15.9,14.3,15.9L14.3,15.9L14.3,15.9z">
+                        </path>
+                    </svg>
+                    <p class=" text-sm font-semibold ml-2">Subscriptions</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" class="ml-2" viewBox="0 0 24 24">
+                        <polygon points="12,18 6,6 18,6" fill="black" />
+                    </svg>
+                </a>
+            </section>
+
+            <section href="#" class="flex flex-col w-full  items-end">
+                <a href="#" class="w-[130px] flex items-start">
+                    <p class="text-gray-400 font-semibold w-5/12 pl-3 text-xs ">Sort</p>
+                </a>
+
+                <a href="#" class="text-grey-400 text-sm flex items-center">Recommended
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" class="w-1/6 " viewBox="0 0 24 24">
+                        <polygon points="12,18 6,6 18,6" fill="grey" />
+                    </svg>
+                </a>
+
+            </section>
+        </section>
+    </header>
+    <!-- content -->
+    <main class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-36 sm:pt-56 px-12 ">
+        <!-- articles 1-6 -->
+        <article>
+            <a href="#" title="Link to project">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/3b5ffa142502067.Y3JvcCwxODY4LDE0NjEsMzkzLDIxNw.jpg"
+                    alt="" class="rounded hover:brightness-75">
+            </a>
+            <figcaption x-data="{ count: 400, isClicked: false }" class="flex  ">
+                <h2 class="w-1/2">
+                    <p class="font-semibold hover:underline border-black"><a href="#">OKTUBRE</a></p>
+                    <p class="text-xs hover:underline border-black"><a href="#">Pedro Destefani</a></p>
+                </h2>
+
+                <span class="flex items-center justify-end  w-1/2 ">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        @click="isClicked = !isClicked; count = isClicked ? count + 1 : count - 1;"
+                        :fill="isClicked ? 'black' : 'none'" viewBox="0 0 24 24" stroke-width="1.5"
+                        class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+                            style="stroke: currentColor;"></path>
+                    </svg>
+
+                    <p x-text="count" class="mr-2 ml-1">400</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <p class="ml-1">1.8k</p>
+
+                </span>
+            </figcaption>
+        </article>
+
+        <article>
+            <a href="#" title="Link to project">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/04296d157680867.Y3JvcCwxNDAwLDEwOTUsMCwyNDk.png"
+                    alt="" class="rounded hover:brightness-75">
+            </a>
+            <figcaption x-data="{ count: 1000, isClicked: false }" class="flex  ">
+                <h2 class="w-1/2">
+                    <p class="font-semibold hover:underline border-black"><a href="#">I'm Inn Hotel</a></p>
+                    <p class="text-xs hover:underline border-black"><a href="#">Elena Popovichenko</a></p>
+                </h2>
+
+                <span class="flex items-center justify-end  w-1/2 ">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        @click="isClicked = !isClicked; count = isClicked ? count + 1 : count - 1;"
+                        :fill="isClicked ? 'black' : 'none'" viewBox="0 0 24 24" stroke-width="1.5"
+                        class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+                            style="stroke: currentColor;"></path>
+                    </svg>
+
+                    <p x-text="count" class="mr-2 ml-1">1000</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <p class="ml-1">8.8k</p>
+
+                </span>
+            </figcaption>
+        </article>
+
+        <article>
+            <a href="#" title="Link to project">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/0ceb1c137419337.Y3JvcCw5MDYsNzA5LDI0Niww.jpg"
+                    alt="" class="rounded hover:brightness-75">
+            </a>
+            <figcaption x-data="{ count: 59, isClicked: false }" class="flex  ">
+                <h2 class="w-1/2">
+                    <p class="font-semibold hover:underline border-black"><a href="#">Oracles</a></p>
+                    <p class="text-xs hover:underline border-black"><a href="#">Pavle Ciric</a></p>
+                </h2>
+
+                <span class="flex items-center justify-end  w-1/2 ">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        @click="isClicked = !isClicked; count = isClicked ? count + 1 : count - 1;"
+                        :fill="isClicked ? 'black' : 'none'" viewBox="0 0 24 24" stroke-width="1.5"
+                        class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+                            style="stroke: currentColor;"></path>
+                    </svg>
+
+                    <p x-text="count" class="mr-2 ml-1">59</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <p class="ml-1">336</p>
+
+                </span>
+            </figcaption>
+        </article>
+
+        <article>
+            <a href="#" title="Link to project">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/17aec4175999169.Y3JvcCw0NTAwLDM1MTksMCw4OQ.jpg"
+                    alt="" class="rounded hover:brightness-75">
+            </a>
+            <figcaption x-data="{ count: 588, isClicked: false }" class="flex  ">
+                <h2 class="w-1/2">
+                    <p class="font-semibold hover:underline border-black"><a href="#">Low Impact Workouts</a></p>
+                    <p class="text-xs hover:underline border-black"><a href="#">Yang Liu</a></p>
+                </h2>
+
+                <span class="flex items-center justify-end  w-1/2 ">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        @click="isClicked = !isClicked; count = isClicked ? count + 1 : count - 1;"
+                        :fill="isClicked ? 'black' : 'none'" viewBox="0 0 24 24" stroke-width="1.5"
+                        class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+                            style="stroke: currentColor;"></path>
+                    </svg>
+
+                    <p x-text="count" class="mr-2 ml-1">588</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <p class="ml-1">3.8k</p>
+
+                </span>
+            </figcaption>
+        </article>
+
+        <article>
+            <a href="#" title="Link to project">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/b90de3176366065.Y3JvcCwzMDAwLDIzNDYsMCw2OTA.jpg"
+                    alt="" class="rounded hover:brightness-75">
+            </a>
+            <figcaption x-data="{ count: 199, isClicked: false }" class="flex  ">
+                <h2 class="w-1/2">
+                    <p class="font-semibold hover:underline border-black"><a href="#">Beauty retouching</a></p>
+                    <p class="text-xs hover:underline border-black"><a href="#">Ahmed Gamal</a></p>
+                </h2>
+
+                <span class="flex items-center justify-end  w-1/2 ">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        @click="isClicked = !isClicked; count = isClicked ? count + 1 : count - 1;"
+                        :fill="isClicked ? 'black' : 'none'" viewBox="0 0 24 24" stroke-width="1.5"
+                        class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+                            style="stroke: currentColor;"></path>
+                    </svg>
+
+                    <p x-text="count" class="mr-2 ml-1">199</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <p class="ml-1">332</p>
+
+                </span>
+            </figcaption>
+        </article>
+
+        <article>
+            <a href="#" title="Link to project">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/40af06144257189.Y3JvcCwxNjE2LDEyNjQsMCww.png"
+                    alt="" class="rounded hover:brightness-75">
+            </a>
+            <figcaption x-data="{ count: 431, isClicked: false }" class="flex  ">
+                <h2 class="w-1/2">
+                    <p class="font-semibold hover:underline border-black"><a href="#">Nottoria</a></p>
+                    <p class="text-xs hover:underline border-black"><a href="#">David Silva</a></p>
+                </h2>
+
+                <span class="flex items-center justify-end  w-1/2 ">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        @click="isClicked = !isClicked; count = isClicked ? count + 1 : count - 1;"
+                        :fill="isClicked ? 'black' : 'none'" viewBox="0 0 24 24" stroke-width="1.5"
+                        class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
+                            style="stroke: currentColor;"></path>
+                    </svg>
+
+                    <p x-text="count" class="mr-2 ml-1">431</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <p class="ml-1">5k</p>
+
+                </span>
+            </figcaption>
+        </article>
+    </main>
+    <!-- footer -->
+    <footer class="hidden lg:flex items-center fixed bottom-0 w-full bg-white border-t py-[7px]">
+        <!-- Privacy -->
+        <ul class="flex ml-6 items-center space-x-2 w-10/12">
+
+            <li class="flex items-center text-xs font-bold text-neutral-500 hover:text-blue-600"><a href="#">More
+                    Behance</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" class="mt-1 " viewBox="0 0 24 24">
+                    <polygon points="12,13 6,6 18,6" fill="black" />
+                </svg>
+                <p class="border-r py-[7px] border-zinc-400 ml-4 mr-2"></p>
+            </li>
+
+            <li class="flex items-center text-xs font-bold text-neutral-500 hover:text-blue-600"><a href="#">English</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" class="mt-1 " viewBox="0 0 24 24">
+                    <polygon points="12,13 6,6 18,6" fill="black" />
+                </svg>
+                <p class="border-r py-[7px] border-zinc-400 ml-4 mr-2"></p>
+            </li>
+
+            <li class="text-xs font-bold text-neutral-500 hover:text-blue-600"><a href="#">TOU</a></li>
+            <li class="text-xs font-bold text-neutral-500 hover:text-blue-600"><a href="#">Privacy</a></li>
+            <li class="text-xs font-bold text-neutral-500 hover:text-blue-600"><a href="#">Community</a></li>
+            <li class="text-xs font-bold text-neutral-500 hover:text-blue-600"><a href="#">Help</a></li>
+            <li class="text-xs font-bold text-neutral-500 hover:text-blue-600"><a href="#">Cookie preferences</a></li>
+            <li class="text-xs font-bold text-neutral-500 hover:text-blue-600"><a href="#"> Do not sell or share my
+                    personal</a>
+                information</li>
+        </ul>
+        <!-- logo -->
+        <span class="flex w-2/12 justify-end">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 15.619"
+                aria-labelledby="IconBase-title-20430e6a-8471-4050-bbef-1fadad019fd5 IconBase-description-20430e6a-8471-4050-bbef-1fadad019fd5"
+                role="graphics-symbol img" width="90" height="18" class=" cursor-pointer " aria-hidden="true">
+                <title id="IconBase-title-20430e6a-8471-4050-bbef-1fadad019fd5">Adobe, Inc.</title>
+
+                <g><!--[-->
+                    <path
+                        d="M179.682,34.616l-.647,2a.145.145,0,0,1-.148.107h-1.564c-.094,0-.122-.053-.107-.132l2.7-7.78a2.513,2.513,0,0,0,.132-.823.089.089,0,0,1,.081-.094h2.157c.067,0,.094.013.108.081l3.06,8.629c.026.067.013.12-.067.12h-1.75a.132.132,0,0,1-.149-.094l-.688-2.009ZM182.3,32.93c-.264-.89-.808-2.522-1.058-3.479h-.013c-.216.9-.7,2.38-1.058,3.479Z"
+                        transform="translate(-153.778 -24.202)"></path>
+                    <path
+                        d="M241.14,28.636a3.573,3.573,0,0,1,3.91-3.541c.107,0,.242.015.444.028V22.46a.085.085,0,0,1,.094-.094h1.7c.067,0,.081.026.081.081v7.969a7.51,7.51,0,0,0,.054.984c0,.067-.013.094-.094.122a6.793,6.793,0,0,1-2.657.538A3.226,3.226,0,0,1,241.14,28.636Zm4.355-1.915a1.389,1.389,0,0,0-.5-.067,1.8,1.8,0,0,0-1.928,1.887,1.687,1.687,0,0,0,1.793,1.915,1.9,1.9,0,0,0,.633-.081Z"
+                        transform="translate(-209.252 -19.408)"></path>
+                    <path
+                        d="M303.016,46.411a3.328,3.328,0,1,1-6.646.041,3.3,3.3,0,0,1,3.356-3.492A3.212,3.212,0,0,1,303.016,46.411Zm-4.746.015c0,1.19.553,1.941,1.455,1.941.783,0,1.375-.674,1.375-1.915,0-1.058-.431-1.928-1.455-1.928C298.864,44.524,298.27,45.225,298.27,46.426Z"
+                        transform="translate(-257.179 -37.279)"></path>
+                    <path
+                        d="M356.658,22.37c.108,0,.132.013.132.108v2.764a4.3,4.3,0,0,1,1.135-.144,3.086,3.086,0,0,1,3.236,3.209,3.743,3.743,0,0,1-4.044,3.761A7.063,7.063,0,0,1,355,31.759a.156.156,0,0,1-.081-.132V22.464c0-.067.026-.094.094-.094Zm.926,4.314a2.71,2.71,0,0,0-.793.108v3.654a2.064,2.064,0,0,0,.5.054,1.856,1.856,0,0,0,1.954-2.023,1.58,1.58,0,0,0-1.656-1.792Z"
+                        transform="translate(-307.986 -19.412)"></path>
+                    <path
+                        d="M409.443,46.941c.067.768.607,1.4,1.928,1.4a4.176,4.176,0,0,0,1.658-.309c.041-.028.081-.013.081.067v1.28c0,.1-.026.132-.094.163a4.53,4.53,0,0,1-2.063.4,3.161,3.161,0,0,1-3.424-3.41,3.286,3.286,0,0,1,3.262-3.56,2.748,2.748,0,0,1,2.844,2.909,4.281,4.281,0,0,1-.067.9.114.114,0,0,1-.107.107,12.3,12.3,0,0,1-1.39.054Zm1.753-1.308a4.486,4.486,0,0,0,.674-.026v-.1a1.1,1.1,0,0,0-1.147-1.058,1.278,1.278,0,0,0-1.295,1.19Z"
+                        transform="translate(-353.639 -37.288)"></path>
+                    <path d="M84.13,0h6.523V15.619Z" transform="translate(-73.005)"></path>
+                    <path d="M6.529,0H0V15.619Z"></path>
+                    <path d="M48.032,43.53l4.156,9.862H49.465l-1.243-3.141H45.18Z"
+                        transform="translate(-39.205 -37.774)">
+                    </path>
+                    <!--]-->
+                </g>
+            </svg>
+        </span>
+    </footer>
+</body>
+
+</html>
